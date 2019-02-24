@@ -1,0 +1,14 @@
+﻿<div class="row">
+    <div class="col-lg-1 col-lg-offset-3">
+        <a asp-action="NewGame" class="btn btn-info">Новая игра</a>
+        
+    </div>
+    <div class="col-lg-1 col-lg-offset-1">
+        <a asp-action="NewGameWithBot" class="btn btn-info" >Новая игра с ботом</a>    
+    </div>
+    <div class="col-lg-1 col-lg-offset-1">
+        <a asp-action="ResetScores" id="ScoreButton" class="btn btn-info">Счет: @Model.ScoreX - @Model.ScoreO</a>
+        <p>
+    </div>
+</div>
+
